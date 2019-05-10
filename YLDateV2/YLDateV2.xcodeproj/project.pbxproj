@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01267237AFABB6F77DEB3392 /* libPods-YLDateV2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DA937841D9D6D749790FD0 /* libPods-YLDateV2.a */; };
+		230F26E9260FCD32C036367D /* libPods-YLDateV2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B568E762A4BAB7C7B707EF98 /* libPods-YLDateV2Tests.a */; };
+		C771D2BA22704BEC009BBD8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2B922704BEC009BBD8C /* AppDelegate.m */; };
+		C771D2BD22704BEC009BBD8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2BC22704BEC009BBD8C /* ViewController.m */; };
+		C771D2C022704BEC009BBD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C771D2BE22704BEC009BBD8C /* Main.storyboard */; };
+		C771D2C222704BEE009BBD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C771D2C122704BEE009BBD8C /* Assets.xcassets */; };
+		C771D2C522704BEE009BBD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C771D2C322704BEE009BBD8C /* LaunchScreen.storyboard */; };
+		C771D2C822704BEE009BBD8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2C722704BEE009BBD8C /* main.m */; };
+		C771D2D222704BEE009BBD8C /* YLDateV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2D122704BEE009BBD8C /* YLDateV2Tests.m */; };
+		C771D2F622704D3B009BBD8C /* YLSolar.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2E022704D3B009BBD8C /* YLSolar.m */; };
+		C771D2F822704D3B009BBD8C /* YLDateV2.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2E422704D3B009BBD8C /* YLDateV2.m */; };
+		C771D2FA22704D3B009BBD8C /* YLLunar.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2E822704D3B009BBD8C /* YLLunar.m */; };
+		C771D2FC22704D3B009BBD8C /* _YLDate.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2EB22704D3B009BBD8C /* _YLDate.m */; };
+		C771D2FE22704D3B009BBD8C /* YLDateUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2EC22704D3B009BBD8C /* YLDateUnit.m */; };
+		C771D30022704D3B009BBD8C /* NSDate+YL.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2EF22704D3B009BBD8C /* NSDate+YL.m */; };
+		C771D30222704D3B009BBD8C /* YLAlmanacTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2F122704D3B009BBD8C /* YLAlmanacTime.m */; };
+		C771D30422704D3B009BBD8C /* YLAlmanac+DataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2F222704D3B009BBD8C /* YLAlmanac+DataProvider.m */; };
+		C771D30622704D3B009BBD8C /* YLAlmanac.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D2F322704D3B009BBD8C /* YLAlmanac.m */; };
+		C771D31322704DB6009BBD8C /* YLDBEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D30C22704DB6009BBD8C /* YLDBEntity.m */; };
+		C771D31522704DB6009BBD8C /* YLSAAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D30D22704DB6009BBD8C /* YLSAAModel.m */; };
+		C771D31722704DB6009BBD8C /* YLHuangliDetailDB.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D30F22704DB6009BBD8C /* YLHuangliDetailDB.m */; };
+		C771D31922704DB6009BBD8C /* YLSAADB.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D31122704DB6009BBD8C /* YLSAADB.m */; };
+		C771D31E22704E34009BBD8C /* YLDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D31D22704E34009BBD8C /* YLDBManager.m */; };
+		C771D32122704F1B009BBD8C /* saa.db in Resources */ = {isa = PBXBuildFile; fileRef = C771D32022704F1B009BBD8C /* saa.db */; };
+		C771D32622704FB6009BBD8C /* solarlunar.c in Sources */ = {isa = PBXBuildFile; fileRef = C771D32422704FB6009BBD8C /* solarlunar.c */; };
+		C771D32E2270506E009BBD8C /* ExtDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D3282270506E009BBD8C /* ExtDateTime.m */; };
+		C771D3302270506E009BBD8C /* Lunar.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D32A2270506E009BBD8C /* Lunar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C771D3322270506E009BBD8C /* ExtDayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D32B2270506E009BBD8C /* ExtDayInfo.m */; };
+		C771D3362270509E009BBD8C /* YLDate.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D3342270509E009BBD8C /* YLDate.m */; };
+		C771D33B22705123009BBD8C /* Performance.c in Sources */ = {isa = PBXBuildFile; fileRef = C771D33A22705123009BBD8C /* Performance.c */; };
+		C771D33F227051C4009BBD8C /* NSDate_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D33D227051C4009BBD8C /* NSDate_Custom.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C771D343227051F9009BBD8C /* LTDateTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D341227051F8009BBD8C /* LTDateTimeTool.m */; };
+		C771D34722705262009BBD8C /* GLCalendarCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D34622705262009BBD8C /* GLCalendarCenter.m */; };
+		C771D34B22705358009BBD8C /* SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D34A22705358009BBD8C /* SQLiteHelper.m */; };
+		C771D34F227053A7009BBD8C /* NSString_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D34D227053A7009BBD8C /* NSString_Custom.m */; };
+		C771D3532270546D009BBD8C /* NSCalendar+Gregorian.m in Sources */ = {isa = PBXBuildFile; fileRef = C771D3512270546D009BBD8C /* NSCalendar+Gregorian.m */; };
+		C7D012892270652A007A7776 /* HuangliDetails.db in Resources */ = {isa = PBXBuildFile; fileRef = C7D012882270652A007A7776 /* HuangliDetails.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C771D2CE22704BEE009BBD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C771D2AD22704BEC009BBD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C771D2B422704BEC009BBD8C;
+			remoteInfo = YLDateV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064E6E6710BA2BFB53E51126 /* Pods-YLDateV2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLDateV2Tests.release.xcconfig"; path = "Target Support Files/Pods-YLDateV2Tests/Pods-YLDateV2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		57DA937841D9D6D749790FD0 /* libPods-YLDateV2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLDateV2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DECACB1CCCD3F0F49C64B59 /* Pods-YLDateV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLDateV2.release.xcconfig"; path = "Target Support Files/Pods-YLDateV2/Pods-YLDateV2.release.xcconfig"; sourceTree = "<group>"; };
+		B568E762A4BAB7C7B707EF98 /* libPods-YLDateV2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLDateV2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C771D2B522704BEC009BBD8C /* YLDateV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLDateV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C771D2B822704BEC009BBD8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C771D2B922704BEC009BBD8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C771D2BB22704BEC009BBD8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C771D2BC22704BEC009BBD8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C771D2BF22704BEC009BBD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C771D2C122704BEE009BBD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C771D2C422704BEE009BBD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C771D2C622704BEE009BBD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C771D2C722704BEE009BBD8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C771D2CD22704BEE009BBD8C /* YLDateV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLDateV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C771D2D122704BEE009BBD8C /* YLDateV2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLDateV2Tests.m; sourceTree = "<group>"; };
+		C771D2D322704BEE009BBD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C771D2E022704D3B009BBD8C /* YLSolar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSolar.m; sourceTree = "<group>"; };
+		C771D2E122704D3B009BBD8C /* YLSolar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSolar.h; sourceTree = "<group>"; };
+		C771D2E222704D3B009BBD8C /* YLDateV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDateV2.h; sourceTree = "<group>"; };
+		C771D2E322704D3B009BBD8C /* NSDate+YL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YL.h"; sourceTree = "<group>"; };
+		C771D2E422704D3B009BBD8C /* YLDateV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDateV2.m; sourceTree = "<group>"; };
+		C771D2E622704D3B009BBD8C /* YLLunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLunar.h; sourceTree = "<group>"; };
+		C771D2E722704D3B009BBD8C /* YLLunarData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLunarData.h; sourceTree = "<group>"; };
+		C771D2E822704D3B009BBD8C /* YLLunar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLLunar.m; sourceTree = "<group>"; };
+		C771D2EA22704D3B009BBD8C /* YLDateUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDateUnit.h; sourceTree = "<group>"; };
+		C771D2EB22704D3B009BBD8C /* _YLDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _YLDate.m; sourceTree = "<group>"; };
+		C771D2EC22704D3B009BBD8C /* YLDateUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDateUnit.m; sourceTree = "<group>"; };
+		C771D2ED22704D3B009BBD8C /* _YLDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _YLDate.h; sourceTree = "<group>"; };
+		C771D2EE22704D3B009BBD8C /* YLDateCapability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDateCapability.h; sourceTree = "<group>"; };
+		C771D2EF22704D3B009BBD8C /* NSDate+YL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YL.m"; sourceTree = "<group>"; };
+		C771D2F122704D3B009BBD8C /* YLAlmanacTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAlmanacTime.m; sourceTree = "<group>"; };
+		C771D2F222704D3B009BBD8C /* YLAlmanac+DataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLAlmanac+DataProvider.m"; sourceTree = "<group>"; };
+		C771D2F322704D3B009BBD8C /* YLAlmanac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAlmanac.m; sourceTree = "<group>"; };
+		C771D2F422704D3B009BBD8C /* YLAlmanacTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAlmanacTime.h; sourceTree = "<group>"; };
+		C771D2F522704D3B009BBD8C /* YLAlmanac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAlmanac.h; sourceTree = "<group>"; };
+		C771D30A22704DB6009BBD8C /* YLSAAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSAAModel.h; sourceTree = "<group>"; };
+		C771D30B22704DB6009BBD8C /* YLDBEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDBEntity.h; sourceTree = "<group>"; };
+		C771D30C22704DB6009BBD8C /* YLDBEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDBEntity.m; sourceTree = "<group>"; };
+		C771D30D22704DB6009BBD8C /* YLSAAModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSAAModel.m; sourceTree = "<group>"; };
+		C771D30F22704DB6009BBD8C /* YLHuangliDetailDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLHuangliDetailDB.m; sourceTree = "<group>"; };
+		C771D31022704DB6009BBD8C /* YLSAADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSAADB.h; sourceTree = "<group>"; };
+		C771D31122704DB6009BBD8C /* YLSAADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSAADB.m; sourceTree = "<group>"; };
+		C771D31222704DB6009BBD8C /* YLHuangliDetailDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLHuangliDetailDB.h; sourceTree = "<group>"; };
+		C771D31C22704E33009BBD8C /* YLDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDBManager.h; sourceTree = "<group>"; };
+		C771D31D22704E34009BBD8C /* YLDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDBManager.m; sourceTree = "<group>"; };
+		C771D32022704F1B009BBD8C /* saa.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = saa.db; sourceTree = "<group>"; };
+		C771D32422704FB6009BBD8C /* solarlunar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = solarlunar.c; sourceTree = "<group>"; };
+		C771D32522704FB6009BBD8C /* solarlunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solarlunar.h; sourceTree = "<group>"; };
+		C771D3282270506E009BBD8C /* ExtDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtDateTime.m; sourceTree = "<group>"; };
+		C771D3292270506E009BBD8C /* ExtDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtDateTime.h; sourceTree = "<group>"; };
+		C771D32A2270506E009BBD8C /* Lunar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lunar.m; sourceTree = "<group>"; };
+		C771D32B2270506E009BBD8C /* ExtDayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtDayInfo.m; sourceTree = "<group>"; };
+		C771D32C2270506E009BBD8C /* ExtDayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtDayInfo.h; sourceTree = "<group>"; };
+		C771D32D2270506E009BBD8C /* Lunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lunar.h; sourceTree = "<group>"; };
+		C771D3342270509E009BBD8C /* YLDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDate.m; sourceTree = "<group>"; };
+		C771D3352270509E009BBD8C /* YLDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDate.h; sourceTree = "<group>"; };
+		C771D33922705123009BBD8C /* Performance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Performance.h; sourceTree = "<group>"; };
+		C771D33A22705123009BBD8C /* Performance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Performance.c; sourceTree = "<group>"; };
+		C771D33D227051C4009BBD8C /* NSDate_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDate_Custom.m; sourceTree = "<group>"; };
+		C771D33E227051C4009BBD8C /* NSDate_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDate_Custom.h; sourceTree = "<group>"; };
+		C771D341227051F8009BBD8C /* LTDateTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTDateTimeTool.m; sourceTree = "<group>"; };
+		C771D342227051F9009BBD8C /* LTDateTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTDateTimeTool.h; sourceTree = "<group>"; };
+		C771D34522705262009BBD8C /* GLCalendarCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCalendarCenter.h; sourceTree = "<group>"; };
+		C771D34622705262009BBD8C /* GLCalendarCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCalendarCenter.m; sourceTree = "<group>"; };
+		C771D34922705357009BBD8C /* SQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteHelper.h; sourceTree = "<group>"; };
+		C771D34A22705358009BBD8C /* SQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteHelper.m; sourceTree = "<group>"; };
+		C771D34D227053A7009BBD8C /* NSString_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_Custom.m; sourceTree = "<group>"; };
+		C771D34E227053A7009BBD8C /* NSString_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_Custom.h; sourceTree = "<group>"; };
+		C771D3512270546D009BBD8C /* NSCalendar+Gregorian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Gregorian.m"; sourceTree = "<group>"; };
+		C771D3522270546D009BBD8C /* NSCalendar+Gregorian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Gregorian.h"; sourceTree = "<group>"; };
+		C7D012882270652A007A7776 /* HuangliDetails.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = HuangliDetails.db; sourceTree = "<group>"; };
+		D148B29E672ECE4650BB1101 /* Pods-YLDateV2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLDateV2Tests.debug.xcconfig"; path = "Target Support Files/Pods-YLDateV2Tests/Pods-YLDateV2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD4AD2E7EE77D34B364AEEBF /* Pods-YLDateV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLDateV2.debug.xcconfig"; path = "Target Support Files/Pods-YLDateV2/Pods-YLDateV2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C771D2B222704BEC009BBD8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01267237AFABB6F77DEB3392 /* libPods-YLDateV2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C771D2CA22704BEE009BBD8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230F26E9260FCD32C036367D /* libPods-YLDateV2Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C89309FA857F45181529D2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57DA937841D9D6D749790FD0 /* libPods-YLDateV2.a */,
+				B568E762A4BAB7C7B707EF98 /* libPods-YLDateV2Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC4253DCD8E9FFB2252FE520 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD4AD2E7EE77D34B364AEEBF /* Pods-YLDateV2.debug.xcconfig */,
+				7DECACB1CCCD3F0F49C64B59 /* Pods-YLDateV2.release.xcconfig */,
+				D148B29E672ECE4650BB1101 /* Pods-YLDateV2Tests.debug.xcconfig */,
+				064E6E6710BA2BFB53E51126 /* Pods-YLDateV2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C771D2AC22704BEC009BBD8C = {
+			isa = PBXGroup;
+			children = (
+				C771D2B722704BEC009BBD8C /* YLDateV2 */,
+				C771D2D022704BEE009BBD8C /* YLDateV2Tests */,
+				C771D2B622704BEC009BBD8C /* Products */,
+				AC4253DCD8E9FFB2252FE520 /* Pods */,
+				1C89309FA857F45181529D2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C771D2B622704BEC009BBD8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C771D2B522704BEC009BBD8C /* YLDateV2.app */,
+				C771D2CD22704BEE009BBD8C /* YLDateV2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C771D2B722704BEC009BBD8C /* YLDateV2 */ = {
+			isa = PBXGroup;
+			children = (
+				C771D2B822704BEC009BBD8C /* AppDelegate.h */,
+				C771D2B922704BEC009BBD8C /* AppDelegate.m */,
+				C771D2BB22704BEC009BBD8C /* ViewController.h */,
+				C771D2BC22704BEC009BBD8C /* ViewController.m */,
+				C771D2BE22704BEC009BBD8C /* Main.storyboard */,
+				C771D2C122704BEE009BBD8C /* Assets.xcassets */,
+				C771D2C322704BEE009BBD8C /* LaunchScreen.storyboard */,
+				C771D2C622704BEE009BBD8C /* Info.plist */,
+				C771D2C722704BEE009BBD8C /* main.m */,
+				C771D31C22704E33009BBD8C /* YLDBManager.h */,
+				C771D31D22704E34009BBD8C /* YLDBManager.m */,
+				C771D2DC22704C76009BBD8C /* Classes */,
+				C771D30822704DB6009BBD8C /* DataProvider */,
+				C771D2DD22704C91009BBD8C /* Tests */,
+			);
+			path = YLDateV2;
+			sourceTree = "<group>";
+		};
+		C771D2D022704BEE009BBD8C /* YLDateV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C771D2D122704BEE009BBD8C /* YLDateV2Tests.m */,
+				C771D2D322704BEE009BBD8C /* Info.plist */,
+			);
+			path = YLDateV2Tests;
+			sourceTree = "<group>";
+		};
+		C771D2DC22704C76009BBD8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C771D2DE22704D3B009BBD8C /* YLDateV2 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C771D2DD22704C91009BBD8C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C771D33822705123009BBD8C /* Dependency */,
+				C771D3352270509E009BBD8C /* YLDate.h */,
+				C771D3342270509E009BBD8C /* YLDate.m */,
+				C771D3292270506E009BBD8C /* ExtDateTime.h */,
+				C771D3282270506E009BBD8C /* ExtDateTime.m */,
+				C771D32C2270506E009BBD8C /* ExtDayInfo.h */,
+				C771D32B2270506E009BBD8C /* ExtDayInfo.m */,
+				C771D32D2270506E009BBD8C /* Lunar.h */,
+				C771D32A2270506E009BBD8C /* Lunar.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C771D2DE22704D3B009BBD8C /* YLDateV2 */ = {
+			isa = PBXGroup;
+			children = (
+				C771D2E922704D3B009BBD8C /* Private */,
+				C771D2DF22704D3B009BBD8C /* Solar */,
+				C771D2E522704D3B009BBD8C /* Lunar */,
+				C771D2F022704D3B009BBD8C /* Almanac */,
+				C771D2EE22704D3B009BBD8C /* YLDateCapability.h */,
+				C771D2E222704D3B009BBD8C /* YLDateV2.h */,
+				C771D2E422704D3B009BBD8C /* YLDateV2.m */,
+				C771D2E322704D3B009BBD8C /* NSDate+YL.h */,
+				C771D2EF22704D3B009BBD8C /* NSDate+YL.m */,
+			);
+			path = YLDateV2;
+			sourceTree = "<group>";
+		};
+		C771D2DF22704D3B009BBD8C /* Solar */ = {
+			isa = PBXGroup;
+			children = (
+				C771D2E122704D3B009BBD8C /* YLSolar.h */,
+				C771D2E022704D3B009BBD8C /* YLSolar.m */,
+			);
+			path = Solar;
+			sourceTree = "<group>";
+		};
+		C771D2E522704D3B009BBD8C /* Lunar */ = {
+			isa = PBXGroup;
+			children = (
+				C771D2E722704D3B009BBD8C /* YLLunarData.h */,
+				C771D2E622704D3B009BBD8C /* YLLunar.h */,
+				C771D2E822704D3B009BBD8C /* YLLunar.m */,
+			);
+			path = Lunar;
+			sourceTree = "<group>";
+		};
+		C771D2E922704D3B009BBD8C /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				C771D32322704FB6009BBD8C /* solarlunar */,
+				C771D2ED22704D3B009BBD8C /* _YLDate.h */,
+				C771D2EB22704D3B009BBD8C /* _YLDate.m */,
+				C771D2EA22704D3B009BBD8C /* YLDateUnit.h */,
+				C771D2EC22704D3B009BBD8C /* YLDateUnit.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		C771D2F022704D3B009BBD8C /* Almanac */ = {
+			isa = PBXGroup;
+			children = (
+				C771D2F522704D3B009BBD8C /* YLAlmanac.h */,
+				C771D2F322704D3B009BBD8C /* YLAlmanac.m */,
+				C771D2F422704D3B009BBD8C /* YLAlmanacTime.h */,
+				C771D2F122704D3B009BBD8C /* YLAlmanacTime.m */,
+			);
+			path = Almanac;
+			sourceTree = "<group>";
+		};
+		C771D30822704DB6009BBD8C /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				C771D31B22704DDC009BBD8C /* Implementation */,
+				C771D30922704DB6009BBD8C /* Model */,
+				C771D30E22704DB6009BBD8C /* DB */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		C771D30922704DB6009BBD8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C771D30B22704DB6009BBD8C /* YLDBEntity.h */,
+				C771D30C22704DB6009BBD8C /* YLDBEntity.m */,
+				C771D30A22704DB6009BBD8C /* YLSAAModel.h */,
+				C771D30D22704DB6009BBD8C /* YLSAAModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C771D30E22704DB6009BBD8C /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				C7D012882270652A007A7776 /* HuangliDetails.db */,
+				C771D32022704F1B009BBD8C /* saa.db */,
+				C771D31222704DB6009BBD8C /* YLHuangliDetailDB.h */,
+				C771D30F22704DB6009BBD8C /* YLHuangliDetailDB.m */,
+				C771D31022704DB6009BBD8C /* YLSAADB.h */,
+				C771D31122704DB6009BBD8C /* YLSAADB.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		C771D31B22704DDC009BBD8C /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				C771D2F222704D3B009BBD8C /* YLAlmanac+DataProvider.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		C771D32322704FB6009BBD8C /* solarlunar */ = {
+			isa = PBXGroup;
+			children = (
+				C771D32522704FB6009BBD8C /* solarlunar.h */,
+				C771D32422704FB6009BBD8C /* solarlunar.c */,
+			);
+			path = solarlunar;
+			sourceTree = "<group>";
+		};
+		C771D33822705123009BBD8C /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				C771D3522270546D009BBD8C /* NSCalendar+Gregorian.h */,
+				C771D3512270546D009BBD8C /* NSCalendar+Gregorian.m */,
+				C771D34E227053A7009BBD8C /* NSString_Custom.h */,
+				C771D34D227053A7009BBD8C /* NSString_Custom.m */,
+				C771D34922705357009BBD8C /* SQLiteHelper.h */,
+				C771D34A22705358009BBD8C /* SQLiteHelper.m */,
+				C771D34522705262009BBD8C /* GLCalendarCenter.h */,
+				C771D34622705262009BBD8C /* GLCalendarCenter.m */,
+				C771D342227051F9009BBD8C /* LTDateTimeTool.h */,
+				C771D341227051F8009BBD8C /* LTDateTimeTool.m */,
+				C771D33E227051C4009BBD8C /* NSDate_Custom.h */,
+				C771D33D227051C4009BBD8C /* NSDate_Custom.m */,
+				C771D33922705123009BBD8C /* Performance.h */,
+				C771D33A22705123009BBD8C /* Performance.c */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C771D2B422704BEC009BBD8C /* YLDateV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C771D2D622704BEE009BBD8C /* Build configuration list for PBXNativeTarget "YLDateV2" */;
+			buildPhases = (
+				1B1170FD707AA99583B7AF30 /* [CP] Check Pods Manifest.lock */,
+				C771D2B122704BEC009BBD8C /* Sources */,
+				C771D2B222704BEC009BBD8C /* Frameworks */,
+				C771D2B322704BEC009BBD8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLDateV2;
+			productName = YLDateV2;
+			productReference = C771D2B522704BEC009BBD8C /* YLDateV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C771D2CC22704BEE009BBD8C /* YLDateV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C771D2D922704BEE009BBD8C /* Build configuration list for PBXNativeTarget "YLDateV2Tests" */;
+			buildPhases = (
+				13E6AB7839DC34ACE2EFCE2C /* [CP] Check Pods Manifest.lock */,
+				C771D2C922704BEE009BBD8C /* Sources */,
+				C771D2CA22704BEE009BBD8C /* Frameworks */,
+				C771D2CB22704BEE009BBD8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C771D2CF22704BEE009BBD8C /* PBXTargetDependency */,
+			);
+			name = YLDateV2Tests;
+			productName = YLDateV2Tests;
+			productReference = C771D2CD22704BEE009BBD8C /* YLDateV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C771D2AD22704BEC009BBD8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zwh;
+				TargetAttributes = {
+					C771D2B422704BEC009BBD8C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					C771D2CC22704BEE009BBD8C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C771D2B422704BEC009BBD8C;
+					};
+				};
+			};
+			buildConfigurationList = C771D2B022704BEC009BBD8C /* Build configuration list for PBXProject "YLDateV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C771D2AC22704BEC009BBD8C;
+			productRefGroup = C771D2B622704BEC009BBD8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C771D2B422704BEC009BBD8C /* YLDateV2 */,
+				C771D2CC22704BEE009BBD8C /* YLDateV2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C771D2B322704BEC009BBD8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C771D2C522704BEE009BBD8C /* LaunchScreen.storyboard in Resources */,
+				C771D2C222704BEE009BBD8C /* Assets.xcassets in Resources */,
+				C771D2C022704BEC009BBD8C /* Main.storyboard in Resources */,
+				C7D012892270652A007A7776 /* HuangliDetails.db in Resources */,
+				C771D32122704F1B009BBD8C /* saa.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C771D2CB22704BEE009BBD8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13E6AB7839DC34ACE2EFCE2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YLDateV2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B1170FD707AA99583B7AF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YLDateV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C771D2B122704BEC009BBD8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C771D2BD22704BEC009BBD8C /* ViewController.m in Sources */,
+				C771D30022704D3B009BBD8C /* NSDate+YL.m in Sources */,
+				C771D34B22705358009BBD8C /* SQLiteHelper.m in Sources */,
+				C771D33B22705123009BBD8C /* Performance.c in Sources */,
+				C771D2C822704BEE009BBD8C /* main.m in Sources */,
+				C771D2FE22704D3B009BBD8C /* YLDateUnit.m in Sources */,
+				C771D3302270506E009BBD8C /* Lunar.m in Sources */,
+				C771D31922704DB6009BBD8C /* YLSAADB.m in Sources */,
+				C771D3532270546D009BBD8C /* NSCalendar+Gregorian.m in Sources */,
+				C771D32E2270506E009BBD8C /* ExtDateTime.m in Sources */,
+				C771D30622704D3B009BBD8C /* YLAlmanac.m in Sources */,
+				C771D2F822704D3B009BBD8C /* YLDateV2.m in Sources */,
+				C771D30222704D3B009BBD8C /* YLAlmanacTime.m in Sources */,
+				C771D2F622704D3B009BBD8C /* YLSolar.m in Sources */,
+				C771D3322270506E009BBD8C /* ExtDayInfo.m in Sources */,
+				C771D34F227053A7009BBD8C /* NSString_Custom.m in Sources */,
+				C771D31E22704E34009BBD8C /* YLDBManager.m in Sources */,
+				C771D2BA22704BEC009BBD8C /* AppDelegate.m in Sources */,
+				C771D31722704DB6009BBD8C /* YLHuangliDetailDB.m in Sources */,
+				C771D2FC22704D3B009BBD8C /* _YLDate.m in Sources */,
+				C771D34722705262009BBD8C /* GLCalendarCenter.m in Sources */,
+				C771D30422704D3B009BBD8C /* YLAlmanac+DataProvider.m in Sources */,
+				C771D31322704DB6009BBD8C /* YLDBEntity.m in Sources */,
+				C771D33F227051C4009BBD8C /* NSDate_Custom.m in Sources */,
+				C771D343227051F9009BBD8C /* LTDateTimeTool.m in Sources */,
+				C771D3362270509E009BBD8C /* YLDate.m in Sources */,
+				C771D31522704DB6009BBD8C /* YLSAAModel.m in Sources */,
+				C771D32622704FB6009BBD8C /* solarlunar.c in Sources */,
+				C771D2FA22704D3B009BBD8C /* YLLunar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C771D2C922704BEE009BBD8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C771D2D222704BEE009BBD8C /* YLDateV2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C771D2CF22704BEE009BBD8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C771D2B422704BEC009BBD8C /* YLDateV2 */;
+			targetProxy = C771D2CE22704BEE009BBD8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C771D2BE22704BEC009BBD8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C771D2BF22704BEC009BBD8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C771D2C322704BEE009BBD8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C771D2C422704BEE009BBD8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C771D2D422704BEE009BBD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C771D2D522704BEE009BBD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C771D2D722704BEE009BBD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4AD2E7EE77D34B364AEEBF /* Pods-YLDateV2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFRGDV636B;
+				INFOPLIST_FILE = YLDateV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwh.YLDateV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C771D2D822704BEE009BBD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DECACB1CCCD3F0F49C64B59 /* Pods-YLDateV2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFRGDV636B;
+				INFOPLIST_FILE = YLDateV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwh.YLDateV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C771D2DA22704BEE009BBD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D148B29E672ECE4650BB1101 /* Pods-YLDateV2Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLDateV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwh.YLDateV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLDateV2.app/YLDateV2";
+			};
+			name = Debug;
+		};
+		C771D2DB22704BEE009BBD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064E6E6710BA2BFB53E51126 /* Pods-YLDateV2Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLDateV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwh.YLDateV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLDateV2.app/YLDateV2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C771D2B022704BEC009BBD8C /* Build configuration list for PBXProject "YLDateV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C771D2D422704BEE009BBD8C /* Debug */,
+				C771D2D522704BEE009BBD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C771D2D622704BEE009BBD8C /* Build configuration list for PBXNativeTarget "YLDateV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C771D2D722704BEE009BBD8C /* Debug */,
+				C771D2D822704BEE009BBD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C771D2D922704BEE009BBD8C /* Build configuration list for PBXNativeTarget "YLDateV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C771D2DA22704BEE009BBD8C /* Debug */,
+				C771D2DB22704BEE009BBD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C771D2AD22704BEC009BBD8C /* Project object */;
+}

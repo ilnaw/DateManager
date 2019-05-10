@@ -1,0 +1,16 @@
+# 忽略引入库的所有警告（强迫症者的福音啊）
+inhibit_all_warnings!
+# see https://stackoverflow.com/questions/34773171/cocoapods-test-issue-duplicate-one-of-the-two-will-be-used-which-one-is-unde/40610918#40610918
+# see https://github.com/CocoaPods/CocoaPods/issues/4626
+target 'YLDateV2' do
+    platform :ios, '9.0'
+
+    pod 'FMDB', '~> 2.2.0'
+    
+    target 'YLDateV2Tests' do
+      platform :ios, '9.0'
+      inherit! :search_paths
+    end
+end
+
+
